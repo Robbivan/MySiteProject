@@ -34,9 +34,73 @@
          url('../fonts/oswald-v49-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/oswald-v49-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  .item{
-    width: 100px;
-    height: 500px;
-    background-color: aqua;
-    padding: 20px;
+  /* jetbrains-mono-regular - latin */
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/jetbrains-mono-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/jetbrains-mono-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  /* jetbrains-mono-500 - latin */
+  @font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/jetbrains-mono-v13-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/jetbrains-mono-v13-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /*For padding inside block*/
+  html{
+    box-sizing: border-box;
+  }
+  /*inheritance*/
+  *,*::before, *::after{ 
+    box-sizing: inherit;
+  }
+/* .wrapper{
+    max-width: 40%;
+} */
+body{
+    width: 1680px;
+    height: 1080px;
+    background-color: #201D1D;
+}
+.ch{
+  width: 100px;
+  height: 100px;
+}
+.header{
+    margin-top: 5%;
+    height: 203px;
+    width: 956px;
+    margin-left: 124px;
+    float: left;
+}
+.header__logo{
+  width: 589px;
+  height: 108px;
+  margin-top: 78px;
+  margin-left: auto;
+  float: left;
+ 
+  
+   
+}
+.header__crown{
+  height: 82px;
+  width: 50px;
+  margin-right: 54px;
+  margin-top: 68px;
+  margin-left: auto;
+  float: left;
+}
+.header__planet{
+    width: 203px;
+    height: 203px;
+    margin-left: 60px;
+    float: left;
+}

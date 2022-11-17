@@ -104,3 +104,18 @@ body{
     margin-left: 60px;
     float: left;
 }
+.middle__earth{
+  position: absolute;
+  width: 294px;
+  height: 40px;
+  left: 111px;
+  top: 273px;
+  
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 49px;
+  
+  color: #FFFFFF;
+}

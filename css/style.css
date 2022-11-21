@@ -74,7 +74,7 @@ body{
   height: 100px;
 }
 .header{
-    margin-top: 5%;
+    margin-top: 3%;
     height: 203px;
     width: 956px;
     margin-left: 111px;;
@@ -86,9 +86,6 @@ body{
   margin-top: 78px;
   margin-left: auto;
   float: left;
- 
-  
-   
 }
 .header__crown{
   height: 82px;
@@ -109,7 +106,7 @@ body{
   width: 294px;
   height: 40px;
   left: 111px;
-  top: 273px;
+  top: 270px;
   
   font-family: 'Oswald';
   font-style: normal;
@@ -120,7 +117,7 @@ body{
   color: #FFFFFF;
 }
 .container__middle{
-  top: 390px;
+  top: 387px;
   position: absolute; 
   width: 1254;
   height: 199;
@@ -163,7 +160,7 @@ body{
   position:absolute;
   /* width: 230px;
   height: 49px; */
-  top: 380px;
+  top: 377px;
   left: 348px;
   z-index: 1; 
 
@@ -182,4 +179,173 @@ body{
   height: 363.48px; */
   left: 358.15px;
   top: 726.74px;
+  z-index: 4;
+}
+.inscriptions{
+  font-family: 'Oswald';
+  font-style: normal;
+}
+.inscriptions .ifconfig{
+  position: absolute;
+  width: 295.42px;
+  height: 74.91px;
+  left: 956.12px;
+  top: 652px;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27.0141px;
+  line-height: 112.7%;
+
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #FFFFFF;
+
+  opacity: 0.25;
+  transform: rotate(27.96deg);
+}
+.inscriptions .null{
+  position: absolute;
+  width: 295.42px;
+  height: 74.91px;
+  left: 60px;
+  top: 694.8px;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0161px;
+  line-height: 112.7%;
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #FFFFFF;
+
+  opacity: 0.19;
+  transform: rotate(-2.42deg);
+}
+.inscriptions .sed{
+  position: absolute;
+  width: 295.42px;
+  height: 74.91px;
+  left: 501px;
+  top: 722.25px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35.0182px;
+  line-height: 112.7%;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+  opacity: 0.39;
+  transform: rotate(-16.98deg);
+}
+.inscriptions .regex{
+  position: absolute;
+  width: 295.42px;
+  height: 74.91px;
+  left: 119.11px;
+  top: 791.38px;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.0156px;
+  line-height: 112.7%;
+  /* or 34px */
+
+  text-align: center;
+  letter-spacing: 0.055em;
+
+  color: #FFFFFF;
+
+  opacity: 0.29;
+  transform: rotate(14.76deg);
+}
+.block__green{
+  position: absolute;
+  left: 299.12px;
+  top: 1003.49px;
+  z-index: 3;
+}
+.block__or{
+  position: absolute;
+  left: 905.44px;
+  top: 964.47px;
+  z-index: 3;
+}
+.block__pink{
+  position: absolute;
+  left: 568.26px;
+  top: 908.44px;
+  z-index: 3;
+}
+.brok__line{
+  position: absolute;
+  left: 1243px;
+  /* border: none;
+  border-top: 9px dotted white;
+  color: #fff;
+  background-color: #201D1D;
+  height: 0px;
+  width: 50%; */
+  
+}
+.ver__line{
+  position: absolute;
+  width: 1080.56px;
+  height: 0px;
+  /* left: 1243px; */
+  /* top: -100px; */
+  top:540px;
+  border: 8.00417px dashed #FFFFFF;
+  left: 754px;
+  transform: rotate(90deg);
+  z-index: 6;
+  }
+.hor__line{
+  position: absolute;
+  width: 380px;
+  height: 0px;
+  left: 1288px;
+  top: 348px;
+
+  border: 7.00365px dashed #FFFFFF;
+  z-index: 7;
+}
+.myphoto{
+  position: absolute;
+  /* width: 170.09px;
+  height: 264.14px; */
+  left: 1410px;
+  top: 34px;
+}
+.questions{
+  position: absolute;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 128px;
+  line-height: 112.7%;
+  /* transform: rotate(-14.21deg);  */
+  
+}
+.questions .first__q{
+  /* or 144px */
+  /* position: absolute; */
+  position: absolute; 
+  left: 1585.12px;
+  top: 22.46px;
+  transform: rotate(-14.21deg); 
+}
+.questions .second__q{
+  position: absolute; 
+  left: 1328.24px;
+  top: 169px;
+  transform: rotate(-14.21deg);  
+
 }

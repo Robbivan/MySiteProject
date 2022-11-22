@@ -297,6 +297,7 @@ body{
 .ver__line{
   position: absolute;
   width: 1080.56px;
+  /* width:100%; */
   height: 0px;
   /* left: 1243px; */
   /* top: -100px; */
@@ -347,5 +348,13 @@ body{
   left: 1328.24px;
   top: 169px;
   transform: rotate(-14.21deg);  
-
+}
+.about__myself{
+  position: absolute;
+  left: 1372px;
+  top: 479px;
+}
+.my__stack{
+  left: 1355.06px;
+  top: 673.42px;
 }
